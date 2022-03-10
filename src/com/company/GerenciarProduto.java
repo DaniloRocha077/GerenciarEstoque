@@ -49,7 +49,7 @@ public class GerenciarProduto {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o Codigo: ");
         produto.codigo = Long.parseLong(input.nextLine());
-        System.out.println("Digite seu Nome: ");
+        System.out.println("Digite o Nome do Produto: ");
         produto.nome = input.nextLine();
         System.out.println("Digite o Fornecedor: ");
         produto.fornecedor = input.nextLine();
